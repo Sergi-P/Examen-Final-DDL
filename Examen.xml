@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<?xml-stylesheet href="examen.css"?>
+
+
+<ExamenFinalDDL xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="examen.xsd">
+        
+            <Aspirante>
+                <Id_Aspirante>001</Id_Aspirante>
+                <Nombre>Sergi</Nombre>
+                <Apellido>Pifarré</Apellido>
+                <DNI>47980544z</DNI>   
+                <Telefono>123456789</Telefono> 
+                <Direccion>c/remolins 33</Direccion>
+                <Fecha_Nacimiento>2002-12-22</Fecha_Nacimiento>
+                <Dan>1ro</Dan>    
+                <Cinturon>negro</Cinturon>   
+                <Fecha_Ingreso>2021-12-22</Fecha_Ingreso>  
+                <Tiempo_Dan_Anterior>1 mes</Tiempo_Dan_Anterior>  
+                <Cuenta_Abonada>Si</Cuenta_Abonada>
+            </Aspirante>
+
+            <Fotos>
+                <Foto_Dni>Foto_Dni.png</Foto_Dni>  
+                <Foto_Carnet_Grado>Foto_Carnet_Grado.png</Foto_Carnet_Grado> 
+                <Foto_Aspirante>Foto_Aspirante.png</Foto_Aspirante>  
+            </Fotos>
+
+            <Meritos>
+                <Id_Aspirante>001</Id_Aspirante>
+                <Edad_Aspirante>18</Edad_Aspirante>
+                <Licencia_Actualizada>Si</Licencia_Actualizada>
+                <Trabajo_Escrito>Si</Trabajo_Escrito>
+                
+            </Meritos>
+
+            <tribunal>
+                <Numero_Jueces>6</Numero_Jueces>
+                <Calificacion_Final>5</Calificacion_Final>
+                <Id_Aspirante>001</Id_Aspirante>
+                <Resultado>Si</Resultado>
+                <Dispensa_medica>Si</Dispensa_medica>
+
+            </tribunal>
+
+            <Jueces>
+                <id_Jueces>001</id_Jueces>
+                <Nombre>Albert</Nombre>
+                <Apellido>Gomez</Apellido>
+                <Diploma_Juez>Si</Diploma_Juez>   
+            </Jueces>
+
+            <Jueces>
+                <id_Jueces>002</id_Jueces>
+                <Nombre>Albert</Nombre>
+                <Apellido>Gomez</Apellido>
+                <Diploma_Juez>Si</Diploma_Juez>   
+            </Jueces>
+
+            <Jueces>
+                <id_Jueces>003</id_Jueces>
+                <Nombre>Albert</Nombre>
+                <Apellido>Gomez</Apellido>
+                <Diploma_Juez>Si</Diploma_Juez>   
+            </Jueces>
+
+            <Jueces>
+                <id_Jueces>004</id_Jueces>
+                <Nombre>Albert</Nombre>
+                <Apellido>Gomez</Apellido>
+                <Diploma_Juez>Si</Diploma_Juez>   
+            </Jueces>
+
+            <Jueces>
+                <id_Jueces>005</id_Jueces>
+                <Nombre>Albert</Nombre>
+                <Apellido>Gomez</Apellido>
+                <Diploma_Juez>Si</Diploma_Juez>   
+            </Jueces>
+
+            <Jueces>
+                <id_Jueces>006</id_Jueces>
+                <Nombre>Albert</Nombre>
+                <Apellido>Gomez</Apellido>
+                <Diploma_Juez>Si</Diploma_Juez>   
+            </Jueces>
+
+            
+
+            <Criterio_Valoracion>
+                <Indumentaria>5</Indumentaria>
+                <Aseo_Personal>5</Aseo_Personal>
+                <Ejecucion_Tecnica>5</Ejecucion_Tecnica>
+                <Valores>5</Valores>
+                <Respuestas>5</Respuestas>
+            </Criterio_Valoracion>
+
+            <Cinturon_Negro_Cuarto_Dan>
+                <Kumite>apto</Kumite>
+                <Kata>apto</Kata>
+                <Coloquio>apto</Coloquio>
+                <Aplicacion_Tecnica>apto</Aplicacion_Tecnica>
+                <Demo_Libre>apto</Demo_Libre>
+            </Cinturon_Negro_Cuarto_Dan>
+<!-- 
+            <Cinturon_Negro_tercer_Dan>
+                <Variaciones_tecnica>si</Variaciones_tecnica>
+                <Kumite>si</Kumite>
+                <Kata>si</Kata>
+                <Aplicacion_Tecnica>si</Aplicacion_Tecnica>
+                <Teoria>si</Teoria>
+                <Campeonatos>si</Campeonatos>
+                <Tenica>si</Tenica>
+                <Aplicaciones>si</Aplicaciones>
+                <Demo_Libre>si</Demo_Libre>
+            </Cinturon_Negro_tercer_Dan>
+
+            <Cinturon_Negro_segundo_Dan>
+                <Tecnica_Base>si</Tecnica_Base>
+                <Tecnica_Directa>si</Tecnica_Directa>
+                <Tecnica_Indirecta_Circular>si</Tecnica_Indirecta_Circular>
+                <Tecnica_Pierna>si</Tecnica_Pierna>
+                <Tecnica_Combinada>si</Tecnica_Combinada>
+                <Teoria>si</Teoria>
+                <Kumite>si</Kumite>
+                <Kata>si</Kata>
+                <Campeonatos>si</Campeonatos>
+                <Tenica>si</Tenica>
+                <Aplicaciones>si</Aplicaciones>
+                <Aplicacion_Tecnica>si</Aplicacion_Tecnica>
+                <Demo_Libre>si</Demo_Libre>
+            </Cinturon_Negro_segundo_Dan>
+
+            <Cinturon_Negro_primer_Dan>
+                <Tecnica_Defensa>si</Tecnica_Defensa>
+                <Tecnica_Pierna>si</Tecnica_Pierna>
+                <Tecnica_Directa_Indirecta>si</Tecnica_Directa_Indirecta>
+                <Tecnica_Combinada>si</Tecnica_Combinada>
+                <Teoria>si</Teoria>
+                <Kata>si</Kata>
+                <Kumite>si</Kumite>
+                <Aplicacion_Tecnica>si</Aplicacion_Tecnica>
+            </Cinturon_Negro_primer_Dan>
+
+            <cinturon_Negro>
+                <Tecnica_Directa>si</Tecnica_Directa>
+                <Tecnica_Circulares>si</Tecnica_Circulares>
+                <Tecnica_Pierna>si</Tecnica_Pierna>
+                <Teoria>si</Teoria>
+                <Kata>si</Kata>
+                <Kumite>si</Kumite>
+            </cinturon_Negro>
+
+            <Hasta_3er_Dan>
+                <Tecnicas>si</Tecnicas>
+                <Kata>si</Kata>
+                <Kumite>si</Kumite>
+                <Campeonatos>si</Campeonatos>
+            </Hasta_3er_Dan>
+
+            <Quinto_Dan_y_Superior>
+                <Kata>si</Kata>
+                <Coloquio>si</Coloquio>
+            </Quinto_Dan_y_Superior>
+-->
+            <Suspende_Examen>
+                <Id_Aspirante>001</Id_Aspirante>
+                <Suspende_Parcial>no</Suspende_Parcial>
+                <Suspende_total>no</Suspende_total>
+                <Suspende_Segunda_Fase>no</Suspende_Segunda_Fase>
+            </Suspende_Examen>
+</ExamenFinalDDL>

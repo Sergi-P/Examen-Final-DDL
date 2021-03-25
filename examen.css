@@ -1,0 +1,724 @@
+ExamenFinalDDL {
+
+    display: table-row;
+    background-color: darksalmon;
+}
+
+
+Meritos,
+tribunal,
+Resultados,
+Requisitos_Aspirante,
+Dispensa_Medica,
+Criterio_Valoracion,
+Cinturon_Negro_Cuarto_Dan,
+Cinturon_Negro_tercer_Dan,
+Cinturon_Negro_segundo_Dan,
+Cinturon_Negro_primer_Dan,
+cinturon_Negro,
+Hasta_3er_Dan,
+Quinto_Dan_y_Superior,
+Suspende_Examen {
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    display: table;
+    margin-left: 20px;
+}
+
+Aspirante {
+    border: black 2px solid;
+    display: table;
+
+    position: relative;
+    background-color: white;
+    margin: 15px;
+    padding: 15px;
+}
+
+Aspirante Id_Aspirante,
+Aspirante Nombre,
+Aspirante Apellido,
+DNI,
+Telefono,
+Direccion,
+Fecha_Nacimiento,
+Dan,
+Cinturon,
+Fecha_Ingreso,
+Tiempo_Dan_Anterior,
+Cuenta_Abonada {
+    display: list-item;
+    list-style: disc inside;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+Fotos {
+    text-align: center;
+    border: black 2px solid;
+    margin: 15px;
+    padding: 15px;
+    display: table;
+    margin-left: 350px;
+    position: relative;
+    bottom: 390px;
+    height: 311px;
+    line-height: 311px;
+    background-color: white;
+}
+
+Foto_Dni {
+    display: table-cell;
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    height: 150px;
+    width: 350px;
+    background-color: darkgrey;
+}
+
+Foto_Aspirante {
+    display: table-cell;
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    height: 150px;
+    width: 350px;
+    background-color: darkgrey;
+}
+
+Foto_Carnet_Grado {
+    display: table-cell;
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    height: 150px;
+    width: 350px;
+    background-color: darkgrey;
+}
+
+Meritos {
+    position: relative;
+    text-align: center;
+    bottom: 350px;
+    width: 500px;
+    margin: auto;
+    height: 100px;
+    background-color: white;
+
+}
+
+Meritos Id_Aspirante::before {
+
+    font-weight: bold;
+    content: "Id_Aspirante: ";
+
+}
+
+Meritos Edad_Aspirante::before {
+    font-weight: bold;
+    content: "Edad_Aspirante: ";
+}
+
+Meritos Id_Aspirante {
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    height: 10px;
+    display: table-cell;
+    background-color: darkgrey;
+
+}
+
+Edad_Aspirante {
+    display: table-cell;
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    height: 10px;
+    background-color: darkgrey;
+
+}
+
+Licencia_Actualizada {
+    display: table-cell;
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    height: 10px;
+    display: table-cell;
+    background-color: darkgrey;
+
+}
+
+Trabajo_Escrito {
+    display: table-cell;
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    height: 10px;
+    background-color: darkgrey;
+}
+
+Meritos Licencia_Actualizada::before {
+    font-weight: bold;
+    content: "Licencia_Actualizada: ";
+}
+
+Meritos Trabajo_Escrito::before {
+    font-weight: bold;
+    content: "Trabajo_Escrito: ";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aspirante Id_Aspirante::before {
+    font-weight: bold;
+    content: "Id_Aspirante: ";
+}
+
+Aspirante Nombre::before {
+    font-weight: bold;
+    content: "Nombre: ";
+}
+
+Aspirante Apellido::before {
+    font-weight: bold;
+    content: "Apellido: ";
+}
+
+DNI::before {
+    font-weight: bold;
+    content: "DNI: ";
+}
+
+Telefono::before {
+    font-weight: bold;
+    content: "Telefono: ";
+}
+
+Direccion::before {
+    font-weight: bold;
+    content: "Direccion: ";
+}
+
+Fecha_Nacimiento::before {
+    font-weight: bold;
+    content: "Fecha_Nacimiento: ";
+}
+
+Dan::before {
+    font-weight: bold;
+    content: "Dan: ";
+}
+
+Cinturon::before {
+    font-weight: bold;
+    content: "Cinturon: ";
+}
+
+Fecha_Ingreso::before {
+    font-weight: bold;
+    content: "Fecha_Ingreso: ";
+}
+
+Tiempo_Dan_Anterior::before {
+    font-weight: bold;
+    content: "Tiempo_Dan_Anterior: ";
+}
+
+Cuenta_Abonada::before {
+    font-weight: bold;
+    content: "Cuenta_Abonada: ";
+}
+
+Jueces {
+
+    border: black 1px solid;
+    margin: 35px;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    bottom: 335px;
+    width: 520px;
+    margin: auto;
+    height: 100px;
+    background-color: darkgrey;
+    left: 250px;
+}
+
+Jueces id_Jueces,
+Jueces Nombre,
+Jueces Apellido,
+Jueces Diploma_Juez {
+
+    background-color: white;
+
+    border: black 1px solid;
+    margin: auto;
+
+    padding: 20px;
+}
+
+Jueces id_Jueces::before {
+    font-weight: bold;
+    content: "Id del juez: ";
+
+}
+
+Jueces id_Jueces {
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    height: 10px;
+    display: table-cell;
+    bottom: 50px;
+}
+
+Jueces Nombre::before {
+    font-weight: bold;
+    content: "Nombre del juez: ";
+
+}
+
+Jueces Nombre {
+    text-align: center;
+
+    margin: auto;
+    padding: 15px;
+    height: 10px;
+    display: table-cell;
+    bottom: 50px;
+}
+
+Jueces Apellido::before {
+    font-weight: bold;
+    content: "Apellido del juez: ";
+
+}
+
+Jueces Apellido {
+    text-align: center;
+
+
+    margin: auto;
+    padding: 15px;
+    height: 10px;
+    display: table-cell;
+    bottom: 50px;
+}
+
+Jueces Diploma_Juez::before {
+    font-weight: bold;
+    content: "Diploma del juez: ";
+
+}
+
+Jueces Diploma_Juez {
+    text-align: center;
+
+
+    margin: auto;
+    padding: 15px;
+    height: 10px;
+    display: table-cell;
+    bottom: 50px;
+}
+
+
+
+tribunal {
+
+    background-color: rgb(29, 185, 29);
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    bottom: 350px;
+    width: 520px;
+    margin: auto;
+    height: 100px;
+    margin-top: 15px;
+}
+
+Numero_Jueces {
+    display: table-cell;
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    height: 10px;
+    background-color: darkgrey;
+
+}
+
+Calificacion_Final {
+    display: table-cell;
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    height: 10px;
+    background-color: darkgrey;
+
+}
+
+Resultado {
+    display: table-cell;
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    height: 10px;
+    background-color: darkgrey;
+
+}
+
+tribunal Id_Aspirante {
+    display: table-cell;
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    height: 10px;
+    background-color: darkgrey;
+
+}
+
+tribunal Numero_Jueces::before {
+    font-weight: bold;
+    content: "Numero de jueces: ";
+
+}
+
+tribunal Calificacion_Final::before {
+    font-weight: bold;
+    content: "Calificacion Final: ";
+}
+
+tribunal Id_Aspirante::before {
+    font-weight: bold;
+    content: "Id del aspirante: ";
+}
+
+tribunal Resultado::before {
+    font-weight: bold;
+    content: "Resultado: ";
+}
+
+tribunal Id_Aspirante {
+    display: table-cell;
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    height: 10px;
+    background-color: darkgrey;
+
+}
+
+tribunal Dispensa_medica {
+    display: table-cell;
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    height: 10px;
+    background-color: darkgrey;
+
+}
+
+tribunal Dispensa_medica::before {
+    font-weight: bold;
+    content: "Dispensa medica: ";
+}
+
+Criterio_Valoracion {
+    border: black 1px solid;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    bottom: 335px;
+    width: 520px;
+    margin: auto;
+    height: 75px;
+    background-color: white;
+    top: -300px;
+    justify-content: center;
+
+}
+
+Indumentaria::before {
+
+    font-weight: bold;
+    content: "Indumentaria: ";
+
+}
+
+Indumentaria {
+
+    display: table-cell;
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    height: 10px;
+    background-color: darkgrey;
+}
+
+Aseo_Personal::before {
+
+    font-weight: bold;
+    content: "Aseo_Personal: ";
+
+}
+
+Aseo_Personal {
+
+
+    display: table-cell;
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    height: 10px;
+    background-color: darkgrey;
+}
+
+Ejecucion_Tecnica::before {
+
+    font-weight: bold;
+    content: "Ejecucion_Tecnica: ";
+
+}
+
+Ejecucion_Tecnica {
+
+
+    display: table-cell;
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    height: 10px;
+    background-color: darkgrey;
+}
+
+Valores::before {
+
+    font-weight: bold;
+    content: "Valores: ";
+
+}
+
+Valores {
+
+
+    display: table-cell;
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    height: 10px;
+    background-color: darkgrey;
+}
+
+Respuestas::before {
+
+    font-weight: bold;
+    content: "Respuestas: ";
+
+}
+Respuestas {
+    display: table-cell;
+    border: black 1px solid;
+    margin: 15px;
+    padding: 15px;
+    height: 10px;
+    background-color: darkgrey;
+}
+
+Cinturon_Negro_Cuarto_Dan{
+border: black 1px solid;
+padding: 15px;
+position: relative;
+text-align: center;
+bottom: 335px;
+width: 637px;
+margin: auto;
+height: 75px;
+background-color: white;
+top: -300px;
+justify-content: center;
+}
+
+Kumite{
+ display: table-cell;
+ border: black 1px solid;
+ margin: 15px;
+ padding: 15px;
+ height: 10px;
+ background-color: darkgrey;
+}
+Kumite::before {
+    font-weight: bold;
+    content: "Kumite: ";
+}
+Kata{
+ display: table-cell;
+ border: black 1px solid;
+ margin: 15px;
+ padding: 15px;
+ height: 10px;
+ background-color: darkgrey;
+}
+Kata::before {
+    font-weight: bold;
+    content: "Kata: ";
+}
+Coloquio{
+ display: table-cell;
+ border: black 1px solid;
+ margin: 15px;
+ padding: 15px;
+ height: 10px;
+ background-color: darkgrey;
+}
+Coloquio::before {
+    font-weight: bold;
+    content: "Coloquio: ";
+}
+Aplicacion_Tecnica{
+ display: table-cell;
+ border: black 1px solid;
+ margin: 15px;
+ padding: 15px;
+ height: 10px;
+ background-color: darkgrey;
+}
+Aplicacion_Tecnica::before {
+    font-weight: bold;
+    content: "Aplicacion_Tecnica: ";
+}
+Demo_Libre{
+ display: table-cell;
+ border: black 1px solid;
+ margin: 15px;
+ padding: 15px;
+ height: 10px;
+ background-color: darkgrey;
+}
+Demo_Libre::before {
+
+    font-weight: bold;
+    content: "Demo_Libre: ";
+
+}
+Suspende_Examen{
+border: black 1px solid;
+padding: 15px;
+position: relative;
+text-align: center;
+bottom: 335px;
+width: 637px;
+margin: auto;
+height: 75px;
+background-color: white;
+top: -300px;
+justify-content: center;
+}
+
+
+Suspende_Examen Id_Aspirante {
+ display: table-cell;
+ border: black 1px solid;
+ margin: 15px;
+ padding: 15px;
+ height: 10px;
+ background-color: darkgrey;
+}
+Suspende_Examen  Id_Aspirante::before {
+
+    font-weight: bold;
+    content: "Id_Aspirante: ";
+
+}
+
+Suspende_Parcial{
+ display: table-cell;
+ border: black 1px solid;
+ margin: 15px;
+ padding: 15px;
+ height: 10px;
+ background-color: darkgrey;
+}
+Suspende_Examen Suspende_Parcial::before {
+
+    font-weight: bold;
+    content: "Suspende_Parcial: ";
+
+}
+
+Suspende_total{
+ display: table-cell;
+ border: black 1px solid;
+ margin: 15px;
+ padding: 15px;
+ height: 10px;
+ background-color: darkgrey;
+}
+Suspende_Examen Suspende_total::before {
+
+    font-weight: bold;
+    content: "Suspende_total: ";
+
+}
+
+Suspende_Segunda_Fase{
+ display: table-cell;
+ border: black 1px solid;
+ margin: 15px;
+ padding: 15px;
+ height: 10px;
+ background-color: darkgrey;
+}
+Suspende_Examen Suspende_Segunda_Fase::before {
+
+    font-weight: bold;
+    content: "Suspende_Segunda_Fase: ";
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
